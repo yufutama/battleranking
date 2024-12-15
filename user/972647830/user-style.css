@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffefd5;
+}
+header {
+    display: flex;
+    background-color: #ffe4c5;
+    border-radius: 30px;
+    padding: 2px;
+    margin-top: 20px;
+}
+.logo img {
+    width: 200px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.season {
+    margin: 0 30px 0 auto;
+}
+.season-name {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 15px;
+    padding-top: 1px;
+}
+.photo {
+    text-align: center;
+    margin-top: 30px;
+}
+.photo img {
+    width: 250px;
+}
+.player-info {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+i {
+    padding: 5px;
+    cursor: pointer;
+}
+.profile {
+    margin-top: 15px;
+}
+.profile dl {
+    display: flex; /* dt と dd を横並びにする */
+    margin: 5px 0; /* 各項目の上下間隔 */
+}
+
+.profile dt {
+    width: 80px; /* 固定幅を設定して統一 */
+    font-weight: bold; /* 見出しを目立たせる */
+    text-align: left; /* 必要に応じて左寄せ */
+}
+
+.profile dd {
+    margin: 0; /* デフォルトの余白をリセット */
+    padding-left: 10px; /* 適度な余白を設定 */
+    flex: 1; /* 残りの幅を使って揃える */
+}
+footer {
+    background-color: #ffe4c5;
+    margin: 0;
+    padding: 5px;
+    margin-top: 30px;
+}
+@media(max-width: 768px) {
+    .logo img {
+        width: 150px;
+        margin-top: 12px;
+    }
+}
